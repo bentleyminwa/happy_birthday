@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Butterfly Kids', cursive;
+}
+
+:root {
+  --primary-bg: #1c0b19;
+  --primary-text-color: #fefffe;
+}
+
+body {
+  max-height: 100vh;
+  width: 100%;
+  background-image: url('./assets/carribean.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  font-family: 'Rubik Gemstones', cursive;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.sub-header {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.reason-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border: 3px solid rgb(255, 215, 166);
+  border-radius: 20px;
+  margin-top: 1rem;
+  padding: 5rem;
+  text-align: center;
+}
+
+.reason-number {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.reason-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
