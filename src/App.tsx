@@ -8,7 +8,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(
       () => setIndex((prev) => (prev + 1 <= reasons.length ? prev + 1 : prev)),
-      10000
+      6000
     );
 
     return () => clearTimeout(timer);
